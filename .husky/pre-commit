@@ -1,0 +1,7 @@
+# Check if husky is properly installed
+if [ ! -f "$(dirname -- "$0")/_/husky.sh" ]; then
+  echo "Husky is not properly installed. Running npm run prepare to fix this..."
+  npm run prepare
+fi
+
+npx lint-staged

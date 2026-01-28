@@ -1,0 +1,471 @@
+{
+  "Common": {
+    "close": "Zatvori",
+    "search": "Pretraži",
+    "searchInArea": "Pretraživanje na području:",
+    "back": "Natrag",
+    "showMore": "Prikaži više",
+    "showMoreCount": "Prikaži više ({count})",
+    "showLess": "Prikaži manje",
+    "add": "Dodaj",
+    "remove": "Ukloni",
+    "clearAll": "Izbriši sve",
+    "scanBarcode": "Skeniraj barkod",
+    "loading": "Učitavanje...",
+    "ok": "U redu",
+    "save": "Spremi",
+    "cancel": "Odustani",
+    "yes": "Da",
+    "no": "Ne",
+    "error": "Greška",
+    "success": "Uspjeh",
+    "price": "Cijena",
+    "market": "Trgovina",
+    "address": "Adresa",
+    "city": "Grad",
+    "date": "Datum",
+    "name": "Naziv",
+    "available": "Dostupno",
+    "notAvailable": "Nedostupno",
+    "cheapest": "Najjeftinije",
+    "mostExpensive": "Najskuplje",
+    "savings": "Ušteda",
+    "barcode": "Barkod",
+    "home": "Početna",
+    "privacy": "Politika privatnosti",
+    "contact": "Kontakt",
+    "markets": "Trgovine",
+    "basket": "Košarica",
+    "statistics": "Indeks cijena",
+    "map": "Karte",
+    "table": "Tablica",
+    "quantity": "Količina",
+    "noResults": "Nema rezultata",
+    "added": "Dodano",
+    "removed": "Uklonjeno",
+    "title": "Usporedi cijene",
+    "timeAgo": {
+      "now": "sada",
+      "seconds": "prije {seconds} sekundi",
+      "oneMinute": "prije 1 min",
+      "minutes": "prije {minutes} min",
+      "oneHour": "prije 1 sat",
+      "hours": "prije {hours}h",
+      "oneDay": "prije 1 dan",
+      "days": "prije {days} dana",
+      "oneWeek": "prije 1 tjedan",
+      "weeks": "prije {weeks} tjedna",
+      "oneMonth": "prije 1 mjesec",
+      "months": "prije {months} mjeseci",
+      "oneYear": "prije 1 godinu",
+      "years": "prije {years} godina"
+    }
+  },
+  "HomePage": {
+    "title": "Usporedi cijene"
+  },
+  "BarcodeScannerDialog": {
+    "placeholder": "Scanner placeholder",
+    "switchCamera": "Prebaci kameru",
+    "title": "Skeniraj barkod",
+    "scanning": "Skeniranje u tijeku",
+    "loadingScanner": "Učitavanje barkod skenera",
+    "moveCloser": "Približite barkod kameri za bolje prepoznavanje",
+    "added": "Proizvod dodan"
+  },
+  "ProductSearchbar": {
+    "inputPlaceholder": "Unesite naziv proizvoda",
+    "pricesOnDate": "Cijene na dan:",
+    "searchInArea": "Pretraživanje na području:",
+    "errorTooShort": "Pretraga mora sadržavati barem 3 znaka."
+  },
+  "CityChooser": {
+    "searchSettlementPlaceholder": "Pretraži naselja",
+    "noSettlementsFound": "Nema pronađenih naselja.",
+    "chooseSettlement": "Odaberi naselje",
+    "settlements": "Naselja",
+    "searchOrSelectSettlement": "Pretraži ili odaberi naselje s popisa"
+  },
+  "MarketCard": {
+    "savings": "Ušteda",
+    "savingsTooltip": "Postotak uštede u odnosu na najskuplju cijenu proizvoda."
+  },
+  "SidebarSearchHistoryItem": {
+    "searchHistory": "Povijest pretraživanja"
+  },
+  "BasketSelectedItems": {
+    "title": "Košarica proizvoda",
+    "empty": "Nema proizvoda u košarici."
+  },
+  "BasketSelectedStores": {
+    "selectedTitle": "Odabrane trgovine",
+    "noSelected": "Nema odabranih trgovina."
+  },
+  "BasketStoreCombobox": {
+    "triggerEmpty": "Odaberi trgovine",
+    "triggerCount": "Odabrano: {count}",
+    "searchPlaceholder": "Pretraži (lanac, grad, adresa)",
+    "noResults": "Nema rezultata",
+    "added": "Trgovina dodana",
+    "removed": "Trgovina uklonjena"
+  },
+  "BasketLayout": {
+    "title": "Košarica",
+    "subtitle": "Sastavite košaricu, odaberite trgovine i usporedite cijene kako biste otkrili gdje je kupnja najpovoljnija."
+  },
+  "BasketSelectedStoresRemoveButton": {
+    "remove": "Ukloni",
+    "removed": "Trgovina uklonjena"
+  },
+  "BasketSelectedStoresClearButton": {
+    "clearAll": "Izbriši sve",
+    "removedAll": "Sve trgovine uklonjene"
+  },
+  "BasketSelectedItemsQuantity": {
+    "removed": "Proizvod uklonjen"
+  },
+  "BasketBarcodeScannerDialog": {
+    "scanBarcode": "Skeniraj barkod",
+    "added": "Proizvod dodan"
+  },
+  "BasketSubmitButton": {
+    "comparePrices": "Usporedi cijene",
+    "summaryCounts": "Trgovine: {stores} • Proizvodi: {items}"
+  },
+  "ProductBarcodeScannerDialog": {
+    "scanBarcode": "Skeniraj barkod",
+    "added": "Proizvod dodan"
+  },
+  "BasketModalCheapestStoreBanner": {
+    "cheapestStore": "Preporučena trgovina",
+    "hasAllItems": "Ima sve artikle iz košarice",
+    "missingItems": "Nedostaje {count} artikala"
+  },
+  "BasketModalDesktopToolbar": {
+    "description": "Prikazano je {top} odabranih trgovina koje predstavljaju vaš odabir.",
+    "tableView": "Tablični prikaz",
+    "cardView": "Kartični prikaz"
+  },
+  "BasketModalTable": {
+    "showProducts": "Prikaži proizvode",
+    "notAvailable": "Nedostupno",
+    "available": "Dostupno"
+  },
+  "BasketModalStoreCard": {
+    "available": "Dostupno",
+    "showProducts": "Prikaži proizvode",
+    "hideProducts": "Sakrij proizvode"
+  },
+  "BasketModalStoreCardItem": {
+    "notAvailable": "Nedostupno"
+  },
+  "BasketProductCombobox": {
+    "triggerEmpty": "Dodaj proizvode",
+    "triggerCount": "Odabrano: {count}",
+    "searchPlaceholder": "Pretraži proizvode (naziv/barkod)",
+    "noResults": "Nema rezultata",
+    "added": "Proizvod dodan",
+    "removed": "Proizvod uklonjen"
+  },
+  "BasketModal": {
+    "title": "Usporedba košarica"
+  },
+  "IndexStatsMap": {
+    "title": "Promjena cijena (%)",
+    "lt0": "< 0%",
+    "0to2": "0% - 2%",
+    "2to5": "2% - 5%",
+    "5to10": "5% - 10%",
+    "gt10": "> 10%"
+  },
+  "IndexStatsMapPopup": {
+    "change": "Promjena: {change}%",
+    "sampleCount": "Uzoraka: {count}",
+    "category": "Kategorija: {category}",
+    "categories": "Kategorije:"
+  },
+  "IndexStatsMapLegend": {
+    "title": "Promjena cijena (%)",
+    "lt0": "< 0%",
+    "0to2": "0% - 2%",
+    "2to5": "2% - 5%",
+    "5to10": "5% - 10%",
+    "gt10": "> 10%",
+    "tooltip": "Legenda"
+  },
+  "IndexStatsTable": {
+    "searchName": "Pretraži naziv",
+    "results": "rezultata",
+    "name": "Naziv",
+    "averageChange": "Prosječna promjena (%)",
+    "sampleCount": "Broj uzoraka",
+    "title": "Statistike po gradovima",
+    "titleMarket": "Statistike po trgovinama",
+    "titleCategory": "Statistike po kategorijama",
+    "noData": "Nema dostupnih podataka",
+    "dateNote": "Promjene cijena odnose se na razdoblje od 29. svibnja 2025. godine."
+  },
+  "NewsSheetContent": {
+    "highPriority": "Visoka prioriteta",
+    "normalPriority": "Normalna prioriteta",
+    "urgent": "hitno",
+    "readMore": "Pročitaj više",
+    "relatedLinks": "Povezani linkovi",
+    "lastUpdated": "Ažurirano",
+    "newsTitle": "Vijesti",
+    "allNews": "Sve vijesti",
+    "allNewsDescription": "Pregled svih {count} vijesti",
+    "fetchError": "Greška pri dohvaćanju vijesti",
+    "noNews": "Nema vijesti"
+  },
+  "MarketsLayout": {
+    "title": "Trgovine",
+    "subtitle": "Popis trgovina i broj jedinstvenih proizvoda"
+  },
+  "MarketStoresList": {
+    "title": "Adrese trgovina",
+    "notFound": "Nema podataka o adresama trgovina.",
+    "openInMaps": "Otvori u Google Maps",
+    "table": {
+      "address": "Adresa",
+      "city": "Grad",
+      "price": "Cijena"
+    }
+  },
+  "AppSidebarPriceInfo": {
+    "pricesOnDate": "Cijene na dan:"
+  },
+  "ShowMoreToggle": {
+    "showMore": "Prikaži više",
+    "showMoreCount": "Prikaži više ({count})",
+    "showLess": "Prikaži manje"
+  },
+  "ProductListItemMarkets": {
+    "bestPrice": "Najbolja cijena",
+    "otherStores": "Ostale trgovine",
+    "tablePrice": "Cijena",
+    "savings": "Ušteda",
+    "savingsTooltip": "Postotak uštede u odnosu na najskuplju cijenu proizvoda.",
+    "noDetails": "Nema detalja dostupnih za ovaj proizvod.",
+    "fetchFailed": "Neuspjelo dohvaćanje detalja proizvoda.",
+    "noMarkets": "Nema trgovačkih lanaca za ovaj proizvod."
+  },
+  "ModeToggle": {
+    "light": "Svijetla",
+    "dark": "Tamna",
+    "system": "Sistemska",
+    "label": "Tema"
+  },
+  "SearchHistory": {
+    "title": "Povijest pretraživanja",
+    "empty": "Nema històrije pretraživanja",
+    "clear": "Očisti povijest",
+    "searchAgain": "Pretraži ponovno",
+    "delete": "Obriši stavku",
+    "timeAgo": {
+      "oneMinute": "prije 1 min",
+      "minutes": "prije {minutes} min",
+      "hours": "prije {hours}h",
+      "days": "prije {days} dana"
+    }
+  },
+  "AppSidebarHeader": {
+    "title": "Usporedi cijene"
+  },
+  "AppSidebarContent": {
+    "searchHistory": "Povijest pretraživanja",
+    "markets": "Trgovine",
+    "stats": "Statistika",
+    "basket": "Košarica",
+    "statistics": "Indeks cijena",
+    "productCounts": "Trgovine",
+    "compareLabel": "Pretraga"
+  },
+  "AppSidebarFooter": {
+    "android": "Android aplikacija",
+    "ios": "iOS aplikacija"
+  },
+  "PrivacyPage": {
+    "title": "Usporedi cijene",
+    "privacyPolicy": "Politika privatnosti",
+    "intro": "Vaša privatnost nam je važna. Ova aplikacija koristi minimalne tehničke podatke i lokalne postavke radi pružanja stabilne i personalizirane usluge, uz poštovanje vaših prava i zaštite podataka.",
+    "dataCollectionTitle": "Koje podatke prikupljamo",
+    "dataCollectionIntro": "Aplikacija ne prikuplja osobne podatke kao što su ime, adresa e-pošte, broj telefona ili bilo kakve informacije pomoću kojih bi se korisnik mogao izravno identificirati.",
+    "dataCollectionDetails": "Međutim, u svrhu poboljšanja performansi i korisničkog iskustva, backend poslužitelj automatski prikuplja sljedeće tehničke podatke:",
+    "technicalData": [
+      "IP adresa uređaja",
+      "URL zahtjeva (putanja korištena u aplikaciji)",
+      "Datum i vrijeme pristupa"
+    ],
+    "dataUsage": "Ovi se podaci koriste isključivo u tehničke i sigurnosne svrhe, kao što su nadzor rada aplikacije, optimizacija i otklanjanje pogrešaka.",
+    "cookiesTitle": "Korištenje kolačića i lokalne pohrane",
+    "cookiesIntro": "Aplikacija može koristiti kolačiće i/ili lokalnu pohranu na uređaju radi pamćenja korisničkih postavki, kao što su odabrana lokacija, jezik ili druge funkcionalnosti koje poboljšavaju korisničko iskustvo.",
+    "cookiesLocal": "Ti se podaci pohranjuju lokalno na vašem uređaju i ne šalju se trećim stranama.",
+    "sharingTitle": "Dijeljenje podataka",
+    "sharingText": "Prikupljeni tehnički podaci ne dijele se s trećim stranama, osim ako to nije zakonski obavezno (npr. po nalogu nadležnih tijela).",
+    "securityTitle": "Sigurnost",
+    "securityText": "Svi tehnički podaci pohranjuju se i obrađuju uz primjenu odgovarajućih sigurnosnih mjera kako bi se spriječio neovlašteni pristup ili zloupotreba.",
+    "changesTitle": "Promjene politike privatnosti",
+    "changesText": "U slučaju izmjena u načinu prikupljanja ili korištenja podataka, ova politika privatnosti će biti ažurirana, a informacije o promjenama bit će dostupne putem ažuriranja aplikacije i/ili opisa aplikacije.",
+    "contactTitle": "Kontakt",
+    "contactIntro": "Ako imate bilo kakva pitanja ili zabrinutosti u vezi s ovom politikom privatnosti, slobodno nas kontaktirajte putem kontakt podataka navedenih na ovoj stranici!",
+    "contactInfo": "Za pitanja, komentare ili prijedloge pišite na:",
+    "email": "[email protected]",
+    "analyticsLink": "Posjetite i našu analitičku stranicu:",
+    "analyticsUrl": "analiza.usporedicijene.info"
+  },
+  "MobileTopBar": {
+    "openMenu": "Otvori izbornik"
+  },
+  "NewsPage": {
+    "title": "Vijesti",
+    "highPriority": "Visoka prioriteta",
+    "normalPriority": "Normalna prioriteta",
+    "urgent": "hitno",
+    "readMore": "Pročitaj više",
+    "relatedLinks": "Povezani linkovi",
+    "lastUpdated": "Ažurirano",
+    "fetchError": "Greška pri dohvaćanju vijesti",
+    "noNews": "Nema vijesti",
+    "allNews": "Sve vijesti",
+    "allNewsDescription": "Pregled svih {count} vijesti",
+    "timeAgo": {
+      "now": "sada",
+      "seconds": "prije {seconds} sekundi",
+      "oneMinute": "prije 1 min",
+      "minutes": "prije {minutes} min",
+      "oneHour": "prije 1 sat",
+      "hours": "prije {hours}h",
+      "oneDay": "prije 1 dan",
+      "days": "prije {days} dana",
+      "oneWeek": "prije 1 tjedan",
+      "weeks": "prije {weeks} tjedna",
+      "oneMonth": "prije 1 mjesec",
+      "months": "prije {months} mjeseci",
+      "oneYear": "prije 1 godinu",
+      "years": "prije {years} godina"
+    }
+  },
+  "WelcomeModal": {
+    "title": "Dobrodošli!",
+    "subtitle": "Informacije o statusu razvoja",
+    "p1": "Ova stranica je trenutno u razvoju. Uskoro ćemo dodati nove funkcionalnosti i poboljšanja.",
+    "p2": "Hvala na strpljenju i razumijevanju dok radimo na poboljšanju iskustva usporedbe cijena!",
+    "dm": "DM-ove cijene su iste za sve lokacije pa je DM odlučio ne dostavljati adrese poslovnica.",
+    "eurospin": "Eurospin je promijenio način na koji dostavljaju podatke pa će nam trebati više vremena za opet ih uvrstiti u aplikaciju.",
+    "thanks": "Zahvale kolegi Senku na trudu (i otvorenom pristupu) pri izradi usklađenih osnovnih podataka (http://cijene.dev).",
+    "thanksPrefix": "Zahvale kolegi Senku na trudu (i otvorenom pristupu) pri izradi usklađenih osnovnih podataka",
+    "thanksLink": "cijene.dev"
+  },
+  "MarketsPage": {
+    "title": "Trgovine",
+    "subtitle": "Popis trgovina i broj jedinstvenih proizvoda",
+    "table": {
+      "market": "Trgovački lanac",
+      "uniqueProductCount": "Broj jedinstvenih proizvoda",
+      "date": "Datum"
+    },
+    "totalUnique": "Ukupno jedinstvenih proizvoda: {count}"
+  },
+  "IndexStatsPage": {
+    "searchName": "Pretraži naziv",
+    "title": "Indeks cijena",
+    "subtitle": "Pregled promjena cijena i uzoraka s filterima po gradovima, trgovinama i kategorijama",
+    "results": "rezultata",
+    "name": "Naziv",
+    "averageChange": "Prosječna promjena (%)",
+    "sampleCount": "Broj uzoraka",
+    "titleMarket": "Statistike po trgovinama",
+    "titleCategory": "Statistike po kategorijama",
+    "noData": "Nema dostupnih podataka za prikaz.",
+    "summaryTitle": "Pregled za Hrvatsku",
+    "summaryTitleCategory": "Pregled za kategoriju: {category}",
+    "summaryTitleCity": "Pregled za grad: {city}",
+    "summaryTitleCityCategory": "Pregled za grad {city} i kategoriju: {category}",
+    "summaryAvgChange": "Prosječna promjena cijena",
+    "summaryTotalSamples": "Ukupno uzoraka",
+    "dateNote": "Promjene cijena odnose se na razdoblje od 29. svibnja 2025. godine.",
+    "tableView": "Lista",
+    "mapView": "Karta",
+    "IndexStatsTable": {
+      "title": "Statistike po gradovima",
+      "titleMarket": "Statistike po trgovinama",
+      "titleCategory": "Statistike po kategorijama",
+      "results": "rezultata"
+    }
+  },
+  "IndexStatsFilters": {
+    "filtersTitle": "Filteri",
+    "searchName": "Pretraži naziv",
+    "view": "Prikaz",
+    "viewOptions": {
+      "per_city": "Po gradovima",
+      "per_market": "Po trgovinama",
+      "per_category": "Po kategorijama"
+    },
+    "city": "Grad",
+    "allCities": "Svi gradovi",
+    "category": "Kategorija",
+    "allCategories": "Sve kategorije",
+    "search": "Pretraži",
+    "searchPlaceholder": "Unesite naziv...",
+    "sortBy": "Sortiraj po",
+    "sortOptions": {
+      "name": "Naziv",
+      "change": "Promjena cijena",
+      "count": "Broj uzoraka"
+    },
+    "order": "Redoslijed",
+    "ascending": "Uzlazno",
+    "descending": "Silazno"
+  },
+  "IndexStats": {
+    "mapSectionTitle": "Karte",
+    "tableSectionTitle": "Tablica"
+  },
+  "ProductListItemPriceStats": {
+    "tableLowest": "Najniža cijena",
+    "tableHighest": "Najviša cijena",
+    "maxSavings": "Maksimalna ušteda do"
+  },
+  "BestPriceSummary": {
+    "price": "Cijena",
+    "savings": "Ušteda",
+    "savingsTooltip": "Postotak uštede u odnosu na najskuplju cijenu proizvoda.",
+    "bestPrice": "Najbolja cijena"
+  },
+  "ProductListHeader": {
+    "resultsTitle": "Rezultati ({count} jedinstvenih proizvoda)",
+    "resultsSummary": "Pronađeno ukupno {count} jedinstvenih proizvoda. Prikazano prvih {displayed} sortiranih po dostupnosti u trgovinama."
+  },
+  "ProductListEmpty": {
+    "noResultsFor": "Nema rezultata za \"{searchedValue}\"",
+    "tryDifferent": "Pokušajte s drugom pretragom ili odaberite drugo područje"
+  },
+
+  "IndexStatsLayout": {
+    "title": "Indeks cijena",
+    "subtitle": "Pregled promjena cijena i uzoraka s filterima po gradovima, trgovinama i kategorijama. Promjene od 29. svibnja 2025."
+  },
+  "IndexStatsSummary": {
+    "summaryTitle": "Pregled za Hrvatsku",
+    "summaryTitleCategory": "Pregled za kategoriju: {category}",
+    "summaryTitleCity": "Pregled za grad: {city}",
+    "summaryTitleCityCategory": "Pregled za grad {city} i kategoriju: {category}",
+    "summaryAvgChange": "Prosječna promjena cijena",
+    "summaryTotalSamples": "Ukupno uzoraka",
+    "dateSubtitle": "Promjene od 29. svibnja 2025."
+  },
+  "ContactPage": {
+    "title": "Kontakt",
+    "intro": "Bugove, komentare i prijedloge možete poslati putem sljedećih kanala:",
+    "emailLabel": "Email podrška",
+    "email": "info@usporedicijene.info",
+    "redditLabel": "Reddit zajednica",
+    "redditUrl": "https://www.reddit.com/r/usporedicijene/",
+    "githubLabel": "GitHub Issues",
+    "githubUrl": "https://github.com/usporedicijene/roadmap/issues",
+    "thanks": "Zahvale kolegi Senku na trudu (i otvorenom pristupu) pri izradi usklađenih osnovnih podataka",
+    "thanksLink": "http://cijene.dev"
+  }
+}

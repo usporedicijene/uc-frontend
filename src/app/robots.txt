@@ -1,0 +1,49 @@
+User-agent: *
+Allow: /
+
+# Main pages
+Allow: /basket
+Allow: /markets
+Allow: /index-stats
+Allow: /map
+Allow: /privacy
+Allow: /market-stores
+
+# API routes - disallow
+Disallow: /api/
+
+# Static assets - allow
+Allow: /favicon.ico
+Allow: /logo-icons/
+Allow: /logo.svg
+Allow: /logo.webp
+Allow: /store-logos/
+Allow: /site.webmanifest
+
+# Contact
+# Email: info@usporedicijene.info
+
+# Sitemap
+Sitemap: https://usporedicijene.info/sitemap.xml
+
+# Additional rules for major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+# Block unwanted bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
