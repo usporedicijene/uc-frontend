@@ -29,10 +29,12 @@ export async function ProductListItem({
   return (
     <Card className="flex w-full gap-0 py-2">
       <CardHeader className="px-4 py-4">
-        <CardTitle className="text-lg leading-none font-bold">{name}</CardTitle>
-        <div className="flex flex-col gap-[2px]">
+        <CardTitle className="text-lg leading-none font-bold">
+          {capitalize(name, "upper")}
+        </CardTitle>
+        <div className="flex flex-col gap-0.5">
           <CardDescription className="text-base leading-tight font-medium">
-            {brand ? capitalize(brand) : ""}
+            {brand ? capitalize(brand, "title") : ""}
           </CardDescription>
           <CardDescription>{barcode}</CardDescription>
         </div>

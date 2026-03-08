@@ -82,7 +82,18 @@ export function formatTimestamp(
   }
 }
 
-export function capitalize(str: string): string {
-  if (!str) return str;
-  return str.charAt(0).toUpperCase() + str.slice(1);
+// if nothing is passed as mode, default is "sentence"
+export function capitalize(
+  item: string,
+  mode: "sentence" | "upper" | "title" = "sentence",
+): string {
+  if (!item || typeof item !== "string") return item;
+  if (mode === "upper") return item.toLocaleUpperCase();
+  if (mode === "title")
+    return item
+      .toLocaleLowerCase()
+      .split(" ")
+      .map((word) => word.charAt(0).toLocaleUpperCase() + word.slice(1))
+      .join(" ");
+  return item.charAt(0).toLocaleUpperCase() + item.slice(1).toLocaleLowerCase();
 }
